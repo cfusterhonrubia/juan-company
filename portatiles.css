@@ -34,28 +34,35 @@ main {
     padding: 20px;
 }
 
+/* Estilos para cada producto */
+main .producto {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
 /* Estilos para las imágenes de productos */
-main img {
-    width: 100%;
-    max-width: 300px;
+main .producto img {
+    max-width: 100%;
     height: auto;
+    max-height: 200px; /* Puedes ajustar este valor según tu preferencia */
     margin-bottom: 10px;
 }
 
-/* Estilos para los textos de productos */
-main p {
+/* Estilos para las descripciones de productos */
+main .producto .descripcion {
     text-align: justify;
     margin-bottom: 10px;
 }
 
 /* Estilos para los botones de compra */
-main button {
+main .producto button {
     background-color: #4CAF50;
     color: white;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    align-items: center;
 }
 
 /* Estilos para el pie de página */
