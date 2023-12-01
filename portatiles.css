@@ -69,8 +69,10 @@ button {
 footer {
     background-color: #333;
     color: #fff;
+    padding: 1%;
     text-align: center;
-    padding: 10px;
+    position: sticky; /* Establece la posición fija */
+    bottom: 0; /* Fija el pie de página en la parte inferior de la ventana */
 }
 
 /* Estilos específicos para pantallas más pequeñas */
