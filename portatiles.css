@@ -44,7 +44,7 @@ main .producto {
 main .producto img {
     max-width: 100%;
     height: auto;
-    max-height: 200px; /* Puedes ajustar este valor según tu preferencia */
+    max-height: 200px; 
     margin-bottom: 10px;
 }
 
@@ -55,14 +55,14 @@ main .producto .descripcion {
 }
 
 /* Estilos para los botones de compra */
-main .producto button {
+main .producto .descripcion button {
     background-color: #4CAF50;
     color: white;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    align-items: center;
+    justify-content: center;
 }
 
 /* Estilos para el pie de página */
