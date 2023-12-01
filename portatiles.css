@@ -1,0 +1,74 @@
+/* Estilos para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para la barra de navegación */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Estilos para la cabecera de la página */
+.cabecerapagina {
+    text-align: center;
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
+/* Estilos para el contenido principal */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+/* Estilos para cada producto */
+main .producto {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Estilos para las imágenes de productos */
+main .producto img {
+    max-width: 100%;
+    height: auto;
+    max-height: 200px; /* Puedes ajustar este valor según tu preferencia */
+    margin-bottom: 10px;
+}
+
+/* Estilos para las descripciones de productos */
+main .producto .descripcion {
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+/* Estilos para los botones de compra */
+main .producto button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: center;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
