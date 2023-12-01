@@ -42,16 +42,16 @@ main .producto {
 
 /* Estilos para las imágenes de productos */
 main .producto img {
-    max-width: 100%;
+    max-width: 35%;
     height: auto;
-    max-height: 200px; 
-    margin-bottom: 10px;
+    max-height: 35%; 
+    margin-bottom: 1%;
 }
 
 /* Estilos para las descripciones de productos */
 .descripcion {
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 1%;
 }
 
 /* Estilos para los botones de compra */
@@ -60,7 +60,7 @@ button {
     color: white;
     padding: 10px 20px;
     border: none;
-    border-radius: 5px;
+    border-radius: 0%;
     cursor: pointer;
 }
 
