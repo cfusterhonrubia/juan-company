@@ -71,3 +71,29 @@ footer {
     text-align: center;
     padding: 10px;
 }
+
+/* Estilos específicos para pantallas más pequeñas */
+@media screen and (max-width: 600px) {
+    nav a {
+        margin: 5px; /* Ajustar espaciado para pantallas más pequeñas */
+    }
+
+    .cabecerapagina {
+        padding: 10px; /* Ajustar padding para pantallas más pequeñas */
+        font-size: 1.2em; /* Tamaño de fuente ajustado para pantallas más pequeñas */
+    }
+
+    main .producto img {
+        max-width: 100%; /* Ajustar ancho máximo para pantallas más pequeñas */
+    }
+
+    button {
+        padding: 8px 16px; /* Ajustar padding para dispositivos más pequeños */
+        border-radius: 5px; /* Añadir bordes redondeados */
+    }
+
+    footer {
+        padding: 5px; /* Ajustar padding para pantallas más pequeñas */
+        font-size: 0.8em; /* Tamaño de fuente ajustado para pantallas más pequeñas */
+    }
+}
