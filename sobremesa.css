@@ -48,3 +48,22 @@ img {
     max-height: 20%;
     max-width: 20%;
 }
+
+div{
+    margin: 2%;
+    border-color: #a50b0b;
+    border: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1%;
+    text-align: center;
+    position: sticky; /* Establece la posición fija */
+    bottom: 0; /* Fija el pie de página en la parte inferior de la ventana */
+}
+a {
+    color: #fff; /* Color de los enlaces en el pie de página */
+    text-decoration: underline; /* Añade una línea de subrayado a los enlaces */
+}
