@@ -8,9 +8,12 @@ Hemos desarrollado una página web responsive para la venta de equipos, centrán
 ### Estructura
 
 - La estructura de nuestra web consta de una página de inicio y dos páginas de venta de equipos.
-- Todos los archivos HTML y CSS se encuentran organizados en una carpeta llamada "juan-company".
+![Barra de navegacion](\capturas\NAV.png)
+- Todos los archivos HTML y CSS se encuentran organizados en una carpeta llamada "juan-company". 
+![Carpetas](\capturas\estructuradecarpetas.png)
 - Hemos optado por separar las hojas de estilo, creando un archivo CSS independiente para cada página.
 - Las imágenes de nuestro catálogo se almacenan en la carpeta "imagenesweb".
+![imagenes](\capturas\imgdeequipos.png)
 
 ### Tecnologías Utilizadas
 
