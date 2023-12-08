@@ -19,6 +19,9 @@ nav a {
     margin: 0 15px;
     transition: color 0.3s; /* Agrega una transición suave al cambio de color */
 }
+nav a:hover {
+    color: #ffd700; /* Cambia el color al pasar el ratón por encima */
+}
 
 /* Estilos para la cabecera de la página */
 .cabecerapagina {

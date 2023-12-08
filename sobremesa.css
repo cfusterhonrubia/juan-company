@@ -20,14 +20,12 @@ nav {
     background-color: #666; /* Color de fondo de la barra de navegación */
     color: #fff; /* Color del texto de la barra de navegación */
     padding: 10px; /* Espaciado interno de la barra de navegación */
-
-    
 }
 
 nav a {
     color: #fff;
-    text-decoration: none;
-    margin: 0 15px;
+    text-decoration: none; /*Eliminados el decorado de los enlaces*/
+    margin: 0 15px; /*Margen*/
     transition: color 0.3s; /* Agrega una transición suave al cambio de color */
 }
 
@@ -36,31 +34,30 @@ nav a:hover {
 }
 
 button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 0%;
+    background-color: #4CAF50; /*Color del fondo*/
+    color: white; /*Color letra*/
+    padding: 10px 20px; /*Margen interno*/
+    border: none; /*Sin borde*/
+    border-radius: 0%; /*Sin redondear el borde*/
     cursor: pointer;
 }
-
+/*Tamaño de las imagenes*/
 img {
     max-height: 20%;
     max-width: 20%;
 }
-
+/*Margen entre contenedores*/
 div{
     margin: 2%;
-    border-color: #a50b0b;
-    border: 10px;
 }
 
+/*Pie de pagina*/
 footer {
-    background-color: #333;
-    color: #fff;
-    padding: 1%;
-    text-align: center;
-    position: sticky; /* Establece la posición fija */
+    background-color: #333; /*Color del fondo*/
+    color: #fff; /*Color de la letra*/
+    padding: 1%; /*Marhen interno*/
+    text-align: center; /*Texto centrado*/
+    position: sticky; /* Establece la posición pegada a la pantalla */
     bottom: 0; /* Fija el pie de página en la parte inferior de la ventana */
 }
 a {
