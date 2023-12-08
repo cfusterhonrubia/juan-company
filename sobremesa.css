@@ -55,7 +55,7 @@ div{
 footer {
     background-color: #333; /*Color del fondo*/
     color: #fff; /*Color de la letra*/
-    padding: 1%; /*Marhen interno*/
+    padding: 1%; /*Margen interno*/
     text-align: center; /*Texto centrado*/
     position: sticky; /* Establece la posición pegada a la pantalla */
     bottom: 0; /* Fija el pie de página en la parte inferior de la ventana */
