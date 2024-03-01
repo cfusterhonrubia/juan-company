@@ -57,3 +57,7 @@ a {
     color: #fff; /* Color de los enlaces en el pie de página */
     text-decoration: underline; /* Añade una línea de subrayado a los enlaces */
 }
+.contacta {
+    background-color: #666;
+    text-decoration: none;
+}
