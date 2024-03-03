@@ -5,24 +5,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="general.css">
-    <title>Document</title>
+    <title>Formulario de Consulta</title>
 </head>
 
 <body>
     <header>
-        <h2>Realiza tu consulta aqui</h2>
+        <h2>Realiza tu consulta aquí</h2>
     </header>
     <main>
-        <form action="">
-            <label for="name">Nombre: </label>
-            <input id="name" type="text">
+        <div class="formulario">
+            <form class="form" action="#" onsubmit="return validarFormulario()">
+                <label for="name">Nombre:</label>
+                <input id="name" type="text" autocomplete="name">
+                <span id="nameError" class="error"></span>
 
-            <label for="apellidos">Apellidos: </label>
-            <input type="text">
+                <label for="apellidos">Apellidos:</label>
+                <input id="apellidos" type="text" autocomplete="family-name">
+                <span id="apellidosError" class="error"></span>
 
-            <label for="email">email</label>
-        </form>
+                <label for="email">Email:</label>
+                <input id="email" type="email" autocomplete="email">
+                <span id="emailError" class="error"></span>
+
+                <label for="terminos">Acepto recibir respuestas por email</label>
+                <input id="terminosCheckbox" type="checkbox">
+                <span id="terminosError" class="error"></span>
+
+                <label for="texto">Explica tu duda o consulta a continuación:</label>
+                <textarea id="texto" cols="30" rows="10" autocomplete="off"></textarea>
+                <span id="textoError" class="error"></span>
+
+                <br>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
     </main>
+    <footer>
+        <h3><a href="inicio.html">Volver al inicio</a></h3>
+    </footer>
+    <script src="javascript.js"></script>
 </body>
 
 </html>
