@@ -45,13 +45,12 @@ h2 {
 }
 
 footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-    position: fixed; /* Establece la posición fija */
+    background-color: #333; /*Color del fondo*/
+    color: #fff; /*Color de la letra*/
+    padding: 1%; /*Margen interno*/
+    text-align: center; /*Texto centrado*/
     bottom: 0; /* Fija el pie de página en la parte inferior de la ventana */
-    width: 100%; /* Hace que el pie de página ocupe el ancho completo de la ventana */
+    width: 100%; /* Ajusta el ancho del footer al 100% del viewport */
 }
 a {
     color: #fff; /* Color de los enlaces en el pie de página */
