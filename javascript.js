@@ -20,26 +20,31 @@ function validarFormulario() {
 
     if (name === "") {
         if (nameError) nameError.textContent = "Debe ingresar su nombre";
+        alert("no ha introducido su nombre")
         return false;
     }
 
     if (apellidos === "") {
         if (apellidosError) apellidosError.textContent = "Debe ingresar sus apellidos";
+        alert("no ha introducido sus apellidos")
         return false;
     }
 
     if (email === "") {
         if (emailError) emailError.textContent = "Debe ingresar su correo electrónico";
+        alert("no ha introducido su mail")
         return false;
     }
 
     if (!terminos) {
         if (terminosError) terminosError.textContent = "Debe aceptar los términos y condiciones";
+        alert("no ha aceptado nuestros terminos")
         return false;
     }
 
     if (texto === "") {
         if (textoError) textoError.textContent = "Debe ingresar su consulta";
+        alert("no ha ingresado ninguna consulta")
         return false;
     }
 
