@@ -30,3 +30,11 @@ Hemos desarrollado una página web responsive para la venta de equipos, centrán
 
 Este proyecto se desarrolló con el objetivo de lograr una experiencia visualmente atractiva y funcional para los usuarios, aplicando buenas prácticas de diseño web y utilizando tecnologías modernas.
 
+### Interactvidad
+
+- Se ha creado una pagina html adicional de formulario de contacto con cierta validación. En dicho formulario se han añadido alerts para informar al usuario de los fallos que se produzcan en los campos.
+
+- Se ha añadido el enlace al formulario en las barras de navegación
+
+- Se ha creado una función que esconde o hace visibles ciertos elementos de la pagina, reutilizable para cualquier elemento futuro.
+
