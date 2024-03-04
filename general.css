@@ -129,3 +129,10 @@ header {
     font-size: 0.8em;
 }
 
+.oculto {
+display: none;
+}
+
+.visible {
+    display: block;
+}

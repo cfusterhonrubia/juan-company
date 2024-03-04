@@ -52,3 +52,14 @@ function validarFormulario() {
 
     return true;
 }
+
+//Ocultar los productos en la pagina de portatiles
+
+function mostrarOcultar() {
+    const productoOculto = document.getElementsByClassName("oculto");
+    for (let i = 0; i < productoOculto.length; i++) {
+      productoOculto[i].classList.toggle("visible");
+    }
+  }
+  
+  
