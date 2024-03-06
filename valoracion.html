@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cuestionario de satisfacción</title>
+  <link rel="stylesheet" href="./general.css">
+</head>
+<body>
+    <header>
+        <h1>Cuestionario de satisfacción</h1>
+    </header>
+    
+    <nav>
+        <h3><a href="./inicio.html">Volver a pagina principal</a></h3>
+        <h3><a href="./sobremesas.html">Compra ordenador de sobremesa</a></h3>
+        <h3><a href="./portatiles.html">Accede a las mejores ofertas de portatiles aqui</a></h3>
+        <h3><a href="./consulta.html">Formulario de consulta</a></h3>
+    </nav>
+
+    <form action="#" onsubmit="return resultados(event)">
+    <p>¿Qué tan satisfecho estuvo con el proceso de compra?</p>
+    <input type="radio" name="satisfaccion" value="5" id="satisfaccion"> Muy satisfecho
+    <input type="radio" name="satisfaccion" value="4" id="satisfaccion"> Satisfecho
+    <input type="radio" name="satisfaccion" value="3" id="satisfaccion"> Ni satisfecho ni insatisfecho
+    <input type="radio" name="satisfaccion" value="2" id="satisfaccion"> Insatisfecho
+    <input type="radio" name="satisfaccion" value="1" id="satisfaccion"> Muy insatisfecho
+    <br>
+    <p>¿Calificaría la calidad del producto que recibió?</p>
+    <select name="calidad" id="calidad">
+        <option value="">Seleccione una opción</option>
+        <option value="5">Excelente</option>
+        <option value="4">Buena</option>
+        <option value="3">Regular</option>
+        <option value="2">Mala</option>
+        <option value="1">Muy mala</option>
+    </select>
+    <br>
+    <p>¿Recomendaría nuestra tienda a otros?</p>
+    <input type="radio" name="recomendacion" value="5" id="recomendacion"> Sí
+    <input type="radio" name="recomendacion" value="0" id="recomendacion"> No
+    <br>
+    <br>
+    <button type="submit">Enviar</button>
+    </form>
+
+    <div id="resultados"></div>
+
+    <script src="javascript.js"></script>
+
+</body>
+</html>

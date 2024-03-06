@@ -30,8 +30,8 @@ function validarFormulario() {
         return false;
     }
 
-    if (email === "") {
-        if (emailError) emailError.textContent = "Debe ingresar su correo electrónico";
+    if (!/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email)) {
+        emailError.textContent = "El email no tiene un formato válido";
         alert("no ha introducido su mail")
         return false;
     }
@@ -67,4 +67,44 @@ function mostrarOcultar() {
     }
   }
   
+//Captar los resultados de la valoracion y publicarlos
+function resultados(event) {
+    event.preventDefault(); // Detener la acción por defecto del envío del formulario
   
+    // Obtener los valores de los elementos del formulario
+    const radiosSatisfaccion = document.getElementsByName("satisfaccion");
+    const radiosRecomendacion = document.getElementsByName("recomendacion");
+    let satisfaccion, recomendacion;
+
+    // Iterar sobre los radios de satisfacción para encontrar el marcado
+    for (let i = 0; i < radiosSatisfaccion.length; i++) {
+        if (radiosSatisfaccion[i].checked) {
+            satisfaccion = parseInt(radiosSatisfaccion[i].value);
+            break;
+        }
+    }
+
+    // Iterar sobre los radios de recomendación para encontrar el marcado
+    for (let i = 0; i < radiosRecomendacion.length; i++) {
+        if (radiosRecomendacion[i].checked) {
+            recomendacion = parseInt(radiosRecomendacion[i].value);
+            break;
+        }
+    }
+
+    const calidad = parseInt(document.getElementById("calidad").value);
+  
+    // Calcular los promedios
+    var weightedSum = (satisfaccion * 1) + (calidad * 1) + (recomendacion * 1); // Utilizamos 1 como peso mínimo
+    var totalWeight = 15; // Suma de los pesos mínimos posibles (1+1+1=3)
+    var promedio = (weightedSum / totalWeight) * 5;
+  
+    // Mostrar los resultados
+    const resultadosElement = document.getElementById("resultados");
+    resultadosElement.innerHTML = `
+      <h1>Resultados del cuestionario</h1>
+      <p>Satisfacción: <strong>${promedio.toFixed(2)} sobre 5</strong></p>
+    `;
+  
+    return false; // Retornar false para prevenir el envío del formulario
+}
