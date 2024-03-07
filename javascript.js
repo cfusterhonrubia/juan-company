@@ -98,7 +98,7 @@ function resultados(event) {
     var weightedSum = (satisfaccion * 1) + (calidad * 1) + (recomendacion * 1); // Utilizamos 1 como peso mínimo
     var totalWeight = 15; // Suma de los pesos mínimos posibles (1+1+1=3)
     var promedio = (weightedSum / totalWeight) * 5;
-  
+    alert("Muchas gracias por compartir tu opinion")
     // Mostrar los resultados
     const resultadosElement = document.getElementById("resultados");
     resultadosElement.innerHTML = `

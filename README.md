@@ -33,8 +33,21 @@ Este proyecto se desarrolló con el objetivo de lograr una experiencia visualmen
 ### Interactvidad
 
 - Se ha creado una pagina html adicional de formulario de contacto con cierta validación. En dicho formulario se han añadido alerts para informar al usuario de los fallos que se produzcan en los campos.
+![consulta](/capturas/consulta.png)
 
-- Se ha añadido el enlace al formulario en las barras de navegación
+- Se ha añadido el enlace al formulario en la pagina de inicio a traves de un boton.
+![botonConsulta](/capturas/botonConsulta.png)
 
-- Se ha creado una función que esconde o hace visibles ciertos elementos de la pagina, reutilizable para cualquier elemento futuro.
+- Se ha creado una función que esconde o hace visibles ciertos elementos de la pagina a través de un botón, reutilizable para cualquier elemento futuro. Se ha  implmentado en las paginas de compra.
+![botonOcultacion](/capturas/botonOcultacion.png)
 
+- Se ha añadido un botón en las paginas que permite cambiar a un "estilo oscuro"
+![estilo oscuro](/capturas/estiloOscuro.png)
+
+- Se ha añadido un cuestionario de opinion que tras ser enviado crea un nuevo elemento para visulizar la satisfaccion general de la pagina
+![cuestionario](/capturas/satisfaccion.png)
+![resultado](/capturas/resultado.png)
+
+- Se ha creado una galeria de imagenes de ejemplo de los equipos, al pasar el raton por encima se hace zoom a la imagen.
+![galeria](/capturas/galeria.png)
+![zoomin](/capturas/zoomin.png)
