@@ -108,3 +108,8 @@ function resultados(event) {
   
     return false; // Retornar false para prevenir el envío del formulario
 }
+
+function cambiarColor() {
+    document.body.classList.toggle("estilo-claro");
+    document.body.classList.toggle("estilo-oscuro");
+  }

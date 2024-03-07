@@ -6,7 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="./inicio.css">
 </head>
-<body>
+<body class="estilo-claro">
     <!--Cabecera donde ira el nombre de la empresa-->
     <header>
         <h1>Juan & Company</h1>
@@ -19,7 +19,7 @@
     </nav>
 
     <!--Contenedor Main donde pondremos toda la informacion de la pagina-->
-    <main>
+    <main id="main">
         <h2>Un poco sobre nosotros</h2>
         <p>Somos una pequeña empresa de informatica que se esta expandiendo a el mercado online</p>
         <h2>Que nos diferencia de los demas?</h2>
@@ -42,6 +42,9 @@
         <h3>Contactanos en redes como </h3>
         <p>Instagram como <a href="https://www.instagram.com/">Juan&Company</a></p>
         <p>twitter como <a href="https://twitter.com/?lang=ca">Juan&Company</a></p>
+        <button id="boton-cambio" onclick="cambiarColor()">Cambiar estilo</button>
     </footer>
+
+    <script src="javascript.js"></script>
 </body>
 </html>

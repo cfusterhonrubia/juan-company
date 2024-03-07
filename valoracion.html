@@ -20,11 +20,11 @@
 
     <form action="#" onsubmit="return resultados(event)">
     <p>¿Qué tan satisfecho estuvo con el proceso de compra?</p>
-    <input type="radio" name="satisfaccion" value="5" id="satisfaccion"> Muy satisfecho
-    <input type="radio" name="satisfaccion" value="4" id="satisfaccion"> Satisfecho
-    <input type="radio" name="satisfaccion" value="3" id="satisfaccion"> Ni satisfecho ni insatisfecho
-    <input type="radio" name="satisfaccion" value="2" id="satisfaccion"> Insatisfecho
-    <input type="radio" name="satisfaccion" value="1" id="satisfaccion"> Muy insatisfecho
+    <input type="radio" name="satisfaccion" value="5" id="satisfaccion"> Muy satisfecho<br>
+    <input type="radio" name="satisfaccion" value="4" id="satisfaccion"> Satisfecho<br>
+    <input type="radio" name="satisfaccion" value="3" id="satisfaccion"> Ni satisfecho ni insatisfecho<br>
+    <input type="radio" name="satisfaccion" value="2" id="satisfaccion"> Insatisfecho<br>
+    <input type="radio" name="satisfaccion" value="1" id="satisfaccion"> Muy insatisfecho<br>
     <br>
     <p>¿Calificaría la calidad del producto que recibió?</p>
     <select name="calidad" id="calidad">
@@ -45,6 +45,14 @@
     </form>
 
     <div id="resultados"></div>
+
+    <!--footer con nuestros perfiles en redes sociales-->
+    <footer>
+        <h3>Contactanos en redes como </h3>
+        <p>Instagram como <a href="https://www.instagram.com/">Juan&Company</a></p>
+        <p>twitter como <a href="https://twitter.com/?lang=ca">Juan&Company</a></p>
+        <button id="boton-cambio" onclick="cambiarColor()">Cambiar estilo</button>
+    </footer>
 
     <script src="javascript.js"></script>
 
