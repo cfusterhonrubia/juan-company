@@ -12,7 +12,7 @@ Hemos desarrollado una página web responsive para la venta de equipos, centrán
 
 - Todos los archivos HTML y CSS se encuentran organizados en una carpeta llamada "juan-company". 
 ![Carpetas](/capturas/estructuradecarpetas.PNG)
-- Hemos optado por separar las hojas de estilo, creando un archivo CSS independiente para cada página.
+- Hemos optado por separar las hojas de estilo, creando un archivo CSS unico para el general y otro para el inicio.
 - Las imágenes de nuestro catálogo se almacenan en la carpeta "imagenesweb".
 ![equipos](/capturas/imgdeequipos.PNG)
 
@@ -45,7 +45,7 @@ Este proyecto se desarrolló con el objetivo de lograr una experiencia visualmen
 ![estilo oscuro](/capturas/estiloOscuro.png)
 
 - Se ha añadido un cuestionario de opinion que tras ser enviado crea un nuevo elemento para visulizar la satisfaccion general de la pagina
-![cuestionario](/capturas/satisfaccion.png)
+![cuestionario](/capturas/Satisfaccion.png)
 ![resultado](/capturas/resultado.png)
 
 - Se ha creado una galeria de imagenes de ejemplo de los equipos, al pasar el raton por encima se hace zoom a la imagen.
