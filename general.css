@@ -59,6 +59,7 @@ footer {
     text-align: center; /*Texto centrado*/
     bottom: 0; /* Fija el pie de página en la parte inferior de la ventana */
     width: 100%; /* Ajusta el ancho del footer al 100% del viewport */
+    margin-top: 5%;
 }
 
 a {
@@ -80,7 +81,7 @@ header {
     color: #fff;
     padding: 20px;
 }
-
+/*Estilo del formulario*/
 .formulario {
     padding: 20px;
     background-color: #fff;
@@ -128,15 +129,15 @@ header {
     color: red;
     font-size: 0.8em;
 }
-
+/*clase para ocultar contenido*/
 .oculto {
 display: none;
 }
-
+/*clase para poder volver a visualizar el contenido*/
 .visible {
     display: block;
 }
-
+/*Estilos para cambiar el contenido del body*/
 body.estilo-claro {
     background-color: #f4f4f4;
     color: #000;
