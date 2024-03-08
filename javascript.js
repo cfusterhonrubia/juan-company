@@ -108,7 +108,7 @@ function resultados(event) {
   
     return false; // Retornar false para prevenir el envío del formulario
 }
-
+//Esta funcion la asociaremos en un boton de las paginas para doder aplicar diferentes estilos y cabiar colores
 function cambiarColor() {
     document.body.classList.toggle("estilo-claro");
     document.body.classList.toggle("estilo-oscuro");

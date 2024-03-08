@@ -47,6 +47,7 @@ footer {
     text-align: center; /*Texto centrado*/
     bottom: 0; /* Fija el pie de página en la parte inferior de la ventana */
     width: 100%; /* Ajusta el ancho del footer al 100% del viewport */
+    position: fixed;
 }
 a {
     color: #fff; /* Color de los enlaces en el pie de página */
